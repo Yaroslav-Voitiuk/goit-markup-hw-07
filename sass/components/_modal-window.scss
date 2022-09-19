@@ -1,4 +1,3 @@
-
 .modal {
     position: absolute;
     top: 50%;
@@ -24,9 +23,10 @@
     background-color: transparent;
     padding: 0;
     transition: var(--transition-dur-and-func);
-}
 
-.modal-close-btn:focus,
-.modal-close-btn:hover {
-    fill: var(--button-hover-color);
-}
+
+    &:focus,
+    &:hover {
+        fill: var(--button-hover-color);
+    }
+}   

@@ -20,13 +20,13 @@
     border-radius: 4px;
     padding-left: 42px;
     transition: border-color var(--transition-dur-and-func);
-}
 
-.modal-form-input:focus {
-    outline: none;
-    border-color: var(--button-hover-color);
-}
 
+    &:focus {
+        outline: none;
+        border-color: var(--button-hover-color);
+    }
+}
 .modal-form-field-desc {
     display: block;
     font-family: 'Roboto';
@@ -75,19 +75,21 @@
     border-radius: 4px;
     padding: 10px;
     resize: none;
-}
 
-.modal-form-message:focus {
-    outline: none;
-    border-color: var(--button-hover-color);
-}
 
-.modal-form-message::placeholder {
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 14px;
-    letter-spacing: 0.01em;
-    color: rgba(117, 117, 117, 0.5);
+    &:focus {
+        outline: none;
+        border-color: var(--button-hover-color);
+    }
+
+
+    &::placeholder {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+        letter-spacing: 0.01em;
+        color: rgba(117, 117, 117, 0.5);
+    }
 }
 
 .modal-form-own-checkbox {

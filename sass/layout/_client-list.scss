@@ -1,4 +1,3 @@
-
 .client-list {
     display: flex;
     align-items: center;
@@ -17,14 +16,16 @@
     width: 170px;
     height: 92px;
     transition: border-color var(--transition-dur-and-func), color var(--transition-dur-and-func);
+
+    &:hover,
+    &:focus {
+        border-color: var(--blue-text-color);
+        color: var(--blue-text-color);
+    }
 }
 
 .client-list__logo {
     fill: currentColor;
 }
 
-.client-list__logobox:hover,
-.client-list__logobox:focus {
-    border-color: var(--blue-text-color);
-    color: var(--blue-text-color);
-}
+

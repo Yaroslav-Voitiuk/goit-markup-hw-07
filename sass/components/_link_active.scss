@@ -1,4 +1,8 @@
-.menu-nav__link_active::after {
+.menu-nav__link_active {
+    color: var(--blue-text-color);
+
+
+    &::after {
     position: absolute;
     content: "";
     display: block;
@@ -8,8 +12,5 @@
     height: 4px;
     border-radius: 2px;
     background-color: var(--button-hover-color) ;
-}
-
-.menu-nav__link_active {
-    color: var(--blue-text-color);
+    }
 }
