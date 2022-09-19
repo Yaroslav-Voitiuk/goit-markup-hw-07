@@ -734,6 +734,21 @@ button {
   cursor: pointer;
   margin-right: 7px;
 }
+.modal-form-check:checked + .modal-form-own-checkbox {
+  background-color: var(--button-hover-color);
+}
+.modal-form-check:checked + .modal-form-own-checkbox .modal-form-own-checkbox-icon {
+  display: block;
+  fill: var(--team-background-card-color);
+}
+.modal-form-check:focus + .modal-form-own-checkbox {
+  box-shadow: 0 0 0 2px var(--button-hover-color);
+  border-color: var(--button-hover-color);
+}
+
+.modal-form-own-checkbox-icon {
+  display: none;
+}
 
 .modal-form-check-field {
   display: flex;
@@ -773,24 +788,6 @@ button {
 
 .modal-form-submit {
   background-color: var(--button-hover-color);
-}
-
-.modal-form-own-checkbox-icon {
-  display: none;
-}
-
-.modal-form-check:checked + .modal-form-own-checkbox {
-  background-color: var(--button-hover-color);
-}
-
-.modal-form-check:checked + .modal-form-own-checkbox .modal-form-own-checkbox-icon {
-  display: block;
-  fill: var(--team-background-card-color);
-}
-
-.modal-form-check:focus + .modal-form-own-checkbox {
-  box-shadow: 0 0 0 2px var(--button-hover-color);
-  border-color: var(--button-hover-color);
 }
 
 .modal-form-check {

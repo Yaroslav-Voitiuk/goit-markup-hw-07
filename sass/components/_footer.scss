@@ -9,7 +9,6 @@
     }
 }
 
-
 .footer-location {
     font-style: normal;
     font-weight: 400;
@@ -99,7 +98,6 @@
     border:0px;
     transition: background-color var(--transition-dur-and-func);
 
-
     &:hover {
         background-color:var(--button-hover-color);
     }
@@ -114,8 +112,6 @@
     color: var(--white-text-color);
     margin-bottom: 20px;
 }
-
-
 
 .icon-send {
     fill: var(--team-background-card-color);
